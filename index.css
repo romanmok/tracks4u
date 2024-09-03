@@ -1,0 +1,40 @@
+:root { font-family: Inter, sans-serif; }
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+body {
+    background-image: url("./images/image.jpeg");
+    background-size: cover;
+    background-position: center top;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    font-family: Inter sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+body .title {
+    display: flex;
+    font-size: 5vw;
+    font-weight: bold;
+
+    color: blue;
+
+    text-shadow: #FC0 5px 0 10px;
+
+}
+body .contacts {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+}
+
+body .contacts a {
+    color: #bcb489;
+    text-shadow: #7492d3 1px 0 1px;
+}
