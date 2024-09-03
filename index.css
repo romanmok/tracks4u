@@ -20,18 +20,19 @@ body {
 
 body .title {
     display: flex;
-    font-size: 5vw;
+    font-size: 10vw;
     font-weight: bold;
 
-    color: blue;
+    color: #fff200;
 
-    text-shadow: #FC0 5px 0 10px;
+    text-shadow: #0080ff 5px 0 10px;
 
 }
 body .contacts {
     position: absolute;
     bottom: 100px;
     color: white;
+    font-size: 3vw;
 }
 
 body .contacts a {
